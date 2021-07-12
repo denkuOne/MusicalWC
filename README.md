@@ -9,4 +9,4 @@ When the bathroom door (or whatever door the system is monitoring) is opened, a 
 The raspberry pi uses an infrared reflective sensor to check the whether the door is open or not and a PIR sensor to detect if the room is occupied or not. The system uses the door sensor to cycle between playback and silence assuming users close the door behind them. The PIR sensor is used to determine if people are going into and out of the room without closing the door behind them. There is also a switch on the unit used for mounting and unmounting flash memory.
 
 # The software:
-The system requires no user intervention
+The system requires almost no user intervention for operation. The script is run automatically when the pi boots, and the first usb flash memory plugged into the device can be easily mounted by flipping the onboard switch.
